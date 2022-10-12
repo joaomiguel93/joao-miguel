@@ -1,0 +1,45 @@
+body{
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.header img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50% 50%;
+    border: 5px solid gray;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 8em;
+    padding-left: 30px;
+    text-shadow: 5px 5px 10px #b5cba8;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.header-text p{
+    color: azure;
+    font-size: 2.5em;
+    line-height: 35px;
+}

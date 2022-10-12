@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: transparent;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px #0a4844 solid;
+}
+
+nav a{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #a1d7bc;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #0a4844;
+    margin-top: 10px;
+    background-color: #a1d7bc;
+    border-radius: 5px;
+}
+
