@@ -31,11 +31,10 @@ body{
     text-shadow: 5px 5px 10px #b5cba8;
 }
 
-.header-text{
+.section1 .header-text{
     display: flex;
     justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 60px;
 }
 
 .header-text p{
