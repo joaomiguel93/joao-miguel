@@ -1,15 +1,21 @@
 .section1{
-    background-color: #000;
-    height: 70vh;
+    background-color: #b5cba8;
+    height: 65vh;
     border-top: 5px solid #0a4844;
     border-bottom: 5px solid #0a4844;
 }
 
 .section1 h2{
-    color: #fff;
+    color: #3c8e64;
     text-align: center;
     font-size: 2.5em;
     margin: 20px auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.section1 h2:hover{
+    text-shadow: 5px 5px 10px #0a4844;
 }
 
 .line{
@@ -30,5 +36,10 @@
     height: 200px;
     width: 200px;
     margin-bottom: 1.5em;
-    box-shadow: 5px 5px 10px #a1d7bc;
+}
+
+.skills h3{
+    color: #0a4844;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
