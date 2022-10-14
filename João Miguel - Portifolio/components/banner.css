@@ -4,7 +4,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.section1{
+.banner{
     display: flex;
     flex-direction: column;
 }
@@ -31,7 +31,7 @@ body{
     text-shadow: 5px 5px 10px #b5cba8;
 }
 
-.section1 .header-text{
+.banner .header-text{
     display: flex;
     justify-content: center;
     padding: 60px 60px;

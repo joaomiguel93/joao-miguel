@@ -1,0 +1,34 @@
+.section1{
+    background-color: #000;
+    height: 70vh;
+    border-top: 5px solid #0a4844;
+    border-bottom: 5px solid #0a4844;
+}
+
+.section1 h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px auto;
+}
+
+.line{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.skills img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 1.5em;
+    box-shadow: 5px 5px 10px #a1d7bc;
+}
